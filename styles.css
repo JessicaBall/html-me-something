@@ -1,0 +1,53 @@
+body {
+    background-color:#DDA0DD;
+    font-family: Georgia,serif;
+}
+
+body header {
+
+    color:#800080;
+    text-align: center;
+}
+
+a:hover {
+    color:#800000
+}
+
+div h2 {
+    text-align: center;
+}
+
+ #sectionA {
+     float: left;
+     width: 60%;
+     margin: auto;
+ }
+
+ #sectionB {
+     float: left;
+     width: 40%;
+     margin-auto;
+     padding-top: 80px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+ }
+
+body main article {
+    margin-top: 100px;
+    margin-bottom: 90px;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+.video-titles {
+    font-family:Impact, Charcoal, sans-serif
+    font-size:18px;
+    color:#800080;
+}
+
+.img-resize {
+    width:180px;
+    height: auto;
+}
