@@ -1,5 +1,5 @@
 body {
-    background-color:#DDA0DD;
+    background-color: #DCDCDC;
     font-family: Georgia,serif;
 }
 
@@ -9,30 +9,34 @@ body header {
     text-align: center;
 }
 
+div article {
+    background-color: #DDA0DD;
+    padding: 5%;
+    border-style: inset;
+    border-width: thick;
+    border-color; #C0C0C0
+}
+
 a:hover {
     color:#800000
 }
 
-div h2 {
-    text-align: center;
-}
-
  #sectionA {
      float: left;
-     width: 60%;
+     width: 70%;
      margin: auto;
  }
 
  #sectionB {
      float: left;
-     width: 40%;
+     width: 30%;
      margin-auto;
      padding-top: 80px;
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+    /*-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    /*-moz-column-count: 2; /* Firefox */
+    /*column-count: 2;*/
+}
 
- }
 
 body main article {
     margin-top: 100px;
@@ -50,4 +54,11 @@ body main article {
 .img-resize {
     width:180px;
     height: auto;
+}
+
+footer {
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
